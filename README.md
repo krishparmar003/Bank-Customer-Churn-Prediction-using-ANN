@@ -4,7 +4,7 @@ An end-to-end deep learning project that predicts whether a bank customer is lik
 
 The repo also includes a second model, an **ANN regression model** for estimating customer salary, along with hyperparameter tuning and TensorBoard experiments.
 
-🔗 **Live Demo:** [YOUR_STREAMLIT_APP_LINK](YOUR_STREAMLIT_APP_LINK)
+🔗 **Live Demo:** [https://bank-customer-churn-prediction-using-anns.streamlit.app/](https://bank-customer-churn-prediction-using-anns.streamlit.app/)
 
 ---
 
