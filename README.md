@@ -88,12 +88,12 @@ python3.10 -m venv myenv
 
 **Windows (Command Prompt)**
 ```bash
-myenv\Scripts\activate
+myenv\Scripts\activate.bat
 ```
 
 **Windows (PowerShell)**
 ```powershell
-myenv\Scripts\Activate.ps1
+myenv\Scripts\activate
 ```
 
 **macOS / Linux**
@@ -164,30 +164,4 @@ Then open `http://localhost:6006` in your browser.
 - `model.h5`, `regression_model.h5` and the `.pkl` files must stay in the project root. The app loads them from there.
 - Use the same library versions as in `requirements.txt`. The saved encoders and scaler may not load correctly with very different scikit-learn versions.
 
----
 
-## 🔮 Future Improvements
-
-- [ ] Handle class imbalance (e.g. SMOTE, class weights)
-- [ ] Add more evaluation metrics (precision, recall, F1, ROC-AUC)
-- [ ] Compare the ANN against tree-based models (Random Forest, XGBoost)
-- [ ] Add explainability (SHAP) to show why a customer is predicted to churn
-
----
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome. Feel free to open an issue or submit a pull request.
-
----
-
-## 👤 Author
-
-**Krish Parmar**
-NIT Surat, India
-
-- GitHub: [@krishparmar003](https://github.com/krishparmar003)
-
----
-
-⭐ If you found this project helpful, consider giving it a star!
